@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="working-pattern-internet-abstract-1089438" translatesAutoresizingMaskIntoConstraints="NO" id="DVC-0q-B1w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="lJe-6s-uhU">
+                                <rect key="frame" x="0.0" y="-64" width="414" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2020 - Veri Expo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhN-QI-u01">
+                                <rect key="frame" x="102.5" y="806.5" width="209" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nhN-QI-u01" secondAttribute="bottom" constant="35" id="483-QO-1C8"/>
+                            <constraint firstItem="lJe-6s-uhU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Ui-8R-SHM"/>
+                            <constraint firstAttribute="bottom" secondItem="DVC-0q-B1w" secondAttribute="bottom" id="DP4-jt-T3h"/>
+                            <constraint firstAttribute="trailing" secondItem="DVC-0q-B1w" secondAttribute="trailing" id="Obd-i6-1cr"/>
+                            <constraint firstItem="lJe-6s-uhU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WAu-QW-xFi"/>
+                            <constraint firstItem="nhN-QI-u01" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ahh-Rl-FZL"/>
+                            <constraint firstItem="lJe-6s-uhU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cKh-hM-chN"/>
+                            <constraint firstItem="DVC-0q-B1w" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hGr-ou-3k9"/>
+                            <constraint firstItem="DVC-0q-B1w" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="jH2-Kg-ON9"/>
+                            <constraint firstItem="DVC-0q-B1w" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="oNL-2u-FCA"/>
+                            <constraint firstItem="DVC-0q-B1w" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="orn-bd-TCw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lJe-6s-uhU" secondAttribute="trailing" id="y5J-NQ-525"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1024" width="1024" height="1024"/>
+        <image name="working-pattern-internet-abstract-1089438" width="5760" height="3840"/>
+    </resources>
+</document>
